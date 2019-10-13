@@ -1,13 +1,3 @@
-/*
-TELEGRAM PHP BOT
-***
-The idea of this bot is to do smallest, easiest and coolest bot ever.
-Based on a Telegram Hellobot example.
-It need only file below to work!
-See code samples in further posts.
-Made by Puzzak@HumanZ project
-Any questions? inbox@humanz.space
-*/
 <?php
 define('token', '');//Insert your token here!
 define('link', 'https://api.telegram.org/bot'.token.'/');
