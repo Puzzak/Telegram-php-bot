@@ -13,5 +13,5 @@
 
 - [Methods](https://github.com/HumanZ-project/Telegram-php-bot/tree/methods)
 - [Bot](https://github.com/HumanZ-project/Telegram-php-bot/tree/bot)
-
+- [Samples](https://github.com/HumanZ-project/Telegram-php-bot/tree/samples)
 ###### Based on [Hellobot](https://core.telegram.org/bots/samples/hellobot)
