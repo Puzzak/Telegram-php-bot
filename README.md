@@ -12,6 +12,6 @@
 >Easy to add methods
 
 - [Methods](https://github.com/HumanZ-project/Telegram-php-bot/tree/methods)
-
+- [Bot](https://github.com/HumanZ-project/Telegram-php-bot/tree/bot)
 
 ###### Based on [Hellobot](https://core.telegram.org/bots/samples/hellobot)
