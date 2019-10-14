@@ -11,9 +11,4 @@
 
 >Easy to add methods
 
-### To-Do
-- [x]Bot itself
-- [x]Code samples
-- [x]API interpretations
-
 ###### Based on [Hellobot](https://core.telegram.org/bots/samples/hellobot)
