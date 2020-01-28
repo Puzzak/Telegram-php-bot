@@ -11,6 +11,7 @@
 
 >Easy to add methods
 
+>Supports inline buttons!
 
 ## Core
 >[Jump to Core](/Core)
