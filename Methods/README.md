@@ -16,7 +16,7 @@
 
 >[deleteMessage](deletemessage.php)
 
-
 ## Bot
-
 >[Jump to Core](/Core)
+## Root
+>[Jump to Root](../../../)
