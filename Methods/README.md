@@ -19,4 +19,4 @@
 
 ## Bot
 
->[To bot\`s Core](/Core)
+>[jump to Core](/Core)
