@@ -1,4 +1,4 @@
-# Methods
+# Bot Methods
 
 >[sendContact](sendContact.php)
 
