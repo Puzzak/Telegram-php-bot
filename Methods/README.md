@@ -2,16 +2,16 @@
 
 >[sendContact](sendContact.php)
 
->[sendLocation](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendLocation)
+>[sendLocation](sendLocation.php)
 
->[sendMessage](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendMessage)
+>[sendMessage](sendMessage.php)
 
->[sendPhoto](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendPhoto)
+>[sendPhoto](sendPhoto.php.php)
 
->[sendSticker](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendSticker)
+>[sendSticker](sendSticker.php)
 
->[sendVoice](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendVoice)
+>[sendVoice](sendVoice.php)
 
->[editMessageText](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/editMessageText)
+>[editMessageText](editMessageText.php)
 
->[deleteMessage](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/deletemessage)
+>[deleteMessage](deletemessage.php)
