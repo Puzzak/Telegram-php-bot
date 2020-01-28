@@ -15,3 +15,8 @@
 >[editMessageText](editMessageText.php)
 
 >[deleteMessage](deletemessage.php)
+
+
+## Bot
+
+>[To bot\`s Core](/Core)
