@@ -1,6 +1,6 @@
 # Methods
 
->[sendContact](Methods//sendContact)
+>[sendContact](Methods/sendContact)
 
 >[sendLocation](https://github.com/HumanZ-project/Telegram-php-bot/blob/methods/sendLocation)
 
