@@ -11,4 +11,9 @@
 
 >Easy to add methods
 
+
+## Core
+>[Jump to Core](/Core)
+## Methods
+>[Jump to Methods](/Methods)
 ###### Based on [Hellobot](https://core.telegram.org/bots/samples/hellobot)
