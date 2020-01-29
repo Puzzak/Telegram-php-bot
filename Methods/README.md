@@ -1,8 +1,7 @@
 # Bot Methods
 
->[![](../Samples/sendContact.png)](sendContact.php)
-
->[sendLocation](sendLocation.php)
+[![](../Samples/sendContact.png)](sendContact.php)
+[![](../Samples/sendLocation.png](sendLocation.php)
 
 >[sendMessage](sendMessage.php)
 
