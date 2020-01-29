@@ -1,6 +1,6 @@
 # Bot Methods
 
->[sendContact](sendContact.php)
+>[![](../Samples/sendContact.png)](sendContact.php)
 
 >[sendLocation](sendLocation.php)
 
