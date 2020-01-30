@@ -2,10 +2,9 @@
 
 [![](../Samples/sendContact.png)](sendContact.php)
 [![](../Samples/sendLocation.png)](sendLocation.php)
+[![](../Samples/sendMessage.png)](sendMessage.php)
 
->[sendMessage](sendMessage.php)
-
->[sendPhoto](sendPhoto.php.php)
+>[sendPhoto](sendPhoto.php)
 
 >[sendSticker](sendSticker.php)
 
