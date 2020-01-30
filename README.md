@@ -5,7 +5,7 @@
 
 >Powered by a single file
 
->Lightweight (1.99 KB in stock)
+>Lightweight (2.08 KB in stock)
 
 >Easy to embed in your project
 
