@@ -39,6 +39,8 @@ function Processing($message) {
         $user_name=$fname;
     }
     $caption=$message['caption'];//string
+    $sticker=$message['sticker']['file_id'];
+    $stickerset=$message['sticker']['set_name'];
     /*
     Actions when bot recieves a message
     */
