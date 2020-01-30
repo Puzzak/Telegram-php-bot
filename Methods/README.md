@@ -3,7 +3,6 @@
 [![](../Samples/sendContact.png)](sendContact.php)
 [![](../Samples/sendLocation.png)](sendLocation.php)
 [![](../Samples/sendMessage.png)](sendMessage.php)
-
 [![](../Samples/sendPhoto.png)](sendPhoto.php)
 
 >[sendSticker](sendSticker.php)
