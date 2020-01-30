@@ -4,7 +4,7 @@
 [![](../Samples/sendLocation.png)](sendLocation.php)
 [![](../Samples/sendMessage.png)](sendMessage.php)
 
->[sendPhoto](sendPhoto.php)
+[![](../Samples/sendPhoto.png)](sendPhoto.php)
 
 >[sendSticker](sendSticker.php)
 
