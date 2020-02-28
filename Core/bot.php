@@ -50,7 +50,7 @@ function Processing($message) {
     "sendMessage",
     array(
         'chat_id' => $chat_id,
-        "text" => "Hey, ".$user_name.", your bot is online. Begin with adding actions or methods. And don`t forget to set botpic, description etc.\nKeep moving forvard!,
+        "text" => "Hey, ".$user_name.", your bot is online. Begin with adding actions or methods. And don`t forget to set botpic, description etc.\nKeep moving forvard!",
         'reply_markup' => array(
             'inline_keyboard' => array(
                 array(
