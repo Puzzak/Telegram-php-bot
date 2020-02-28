@@ -41,18 +41,67 @@ function Processing($message) {
     $caption=$message['caption'];//string
     $sticker=$message['sticker']['file_id'];
     $stickerset=$message['sticker']['set_name'];
+    $replytotext=$message['reply_to_message']['text'];
+    $replytoid=$message['reply_to_message']['id'];
     /*
     Actions when bot recieves a message
     */
+    Request(
+    "sendMessage",
+    array(
+        'chat_id' => $chat_id,
+        "text" => "Hey, ".$user_name.", your bot is online. Begin with adding actions or methods. And don`t forget to set botpic, description etc.\nKeep moving forvard!,
+        'reply_markup' => array(
+            'inline_keyboard' => array(
+                array(
+                    array(
+                        'text'=>'Your Bro',
+                        'url'=> 'https://t.me/Puzzak'
+                    ),
+                    array(
+                        'text'=>'Go to source code',
+                        'url'=> 'https://github.com/HumanZ-project/Telegram-php-bot/'
+                    )
+                ),array(
+                    array(
+                        'text'=>'Go ahead!',
+                        'callback_data'=> 'init'
+                    )
+                )
+            )
+        )
+    )
+);
 }
 function ProcQuery($callback_query) {
+    $fname=$callback_query['message']['chat']['first_name'];//string
+    $lname=$callback_query['message']['chat']['last_name'];//string
+    if(isset($lname)){
+        $user_name ="$fname $lname";
+    }else{
+        $user_name=$fname;
+    }
+
     $chat_id=$callback_query['from']['id'];
     $data=$callback_query['data'];
     $message_id=$callback_query['message']['message_id'];
+    $message_text=$callback_query['message']['text'];
+    $chat_id=$callback_query['message']['chat']['id'];
+    $username=$callback_query['message']['chat']['username'];
     /*
     Actions when user uses buttons under message
     (Actually, if you didn`t use it, you can delete this function)
     */
+    if($data=="init"){
+        Request("deleteMessage", array('chat_id' => $chat_id, "message_id" => $message_id));
+        Request(
+            "sendSticker",
+            array(
+                'chat_id' => $chat_id,
+                "sticker" => 'CAACAgIAAxkBAAMtXjKm4rjHrThW1GIY4d6M-n7qL0MAAgIAA_B_LiDKpq1PIGmzahgE'
+            )
+        );
+    }
 }
 $content = file_get_contents("php://input");
 $update = json_decode($content, true);
