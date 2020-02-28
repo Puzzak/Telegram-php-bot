@@ -1,4 +1,4 @@
-# Telegram-php-bot
+# Telegram bot\`s core
 >Simplest telegram bot
 
 >One file to start
