@@ -43,6 +43,7 @@ function Processing($message) {
     $stickerset=$message['sticker']['set_name'];
     $replytotext=$message['reply_to_message']['text'];
     $replytoid=$message['reply_to_message']['id'];
+    $username=$callback_query['message']['chat']['username'];
     /*
     Actions when bot recieves a message
     */
