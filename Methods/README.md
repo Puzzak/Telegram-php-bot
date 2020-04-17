@@ -1,10 +1,14 @@
 # Bot Methods
 
-[![](../Samples/sendContact.png)](sendContact.php)
-[![](../Samples/sendLocation.png)](sendLocation.php)
-[![](../Samples/sendMessage.png)](sendMessage.php)
-[![](../Samples/sendPhoto.png)](sendPhoto.php)
-[![](../Samples/sendSticker.png)](sendSticker.php)
+>[sendContact](sendContact.php)
+
+>[sendLocation](sendLocation.php)
+
+>[sendMessage](sendMessage.php)
+
+>[sendPhoto](sendPhoto.php)
+
+>[sendSticker](sendSticker.php)
 
 >[sendVoice](sendVoice.php)
 
