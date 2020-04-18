@@ -5,13 +5,15 @@
 
 >Powered by a single file
 
->Lightweight (3.8 KB in stock)
+>Lightweight (4.62 KB in stock)
 
 >Easy to embed in your project
 
 >Easy to add methods
 
 >Supports inline buttons!
+
+>Supports inline!
 
 ## Core
 >[Jump to Core](/Core)
