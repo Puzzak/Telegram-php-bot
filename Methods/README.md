@@ -1,5 +1,7 @@
 # Bot Methods
 
+>[answerCallbackQuery](answerCallbackQuery.php)
+
 >[answerInlineQuery](answerInlineQuery.php)
 
 >[deleteMessage](deletemessage.php)
