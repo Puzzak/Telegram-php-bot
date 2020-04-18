@@ -89,6 +89,7 @@ function ProcQuery($callback_query) {
     $message_text=$callback_query['message']['text'];
     $chat_id=$callback_query['message']['chat']['id'];
     $username=$callback_query['message']['chat']['username'];
+    $id=$callback_query['id'];
     /*
     Actions when user uses buttons under message
     (Actually, if you didn`t use it, you can delete this function)
