@@ -104,8 +104,39 @@ function ProcQuery($callback_query) {
         );
     }
 }
+
+function ProcInline($inline_query) {
+    $id=$inline_query[id];
+    $userid=$inline_query[from][id];
+    $is_bot=$inline_query[from][is_bot];
+    $fname=$inline_query[from][first_name];
+    $lname=$inline_query[from][last_name];
+    if(isset($lname)){
+        $user_name ="$fname $lname";
+    }else{
+        $user_name=$fname;
+    }
+    $username=$inline_query[from][username];
+    $language=$inline_query[from][language_code];
+    $query=$inline_query[query];
+    $offset=$inline_query[offset];
+
+    /*
+    Actions on inline
+    (Actually, if you didn`t use it, you can delete this function)
+    */
+    Request(
+    "sendMessage",
+    array(
+        'chat_id' => $userid,
+        "text" => $query
+    )
+    );
+
+}
 $content = file_get_contents("php://input");
 $update = json_decode($content, true);
 if (isset($update["message"])) {Processing($update["message"]);}
 if (isset($update["callback_query"])) {ProcQuery($update["callback_query"]);}
+if (isset($update["inline_query"])) {ProcInline($update["inline_query"]);}
 ?>
