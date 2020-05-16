@@ -42,8 +42,12 @@ function Processing($message) {
     $sticker=$message['sticker']['file_id'];
     $stickerset=$message['sticker']['set_name'];
     $replytotext=$message['reply_to_message']['text'];
-    $replytoid=$message['reply_to_message']['id'];
+    $replytoid=$message['reply_to_message']['message_id'];
+    $replytouser_id = $message['reply_to_message']['from']['id'];
     $username=$message['chat']['username'];
+    $sendername=$message['from']['username'];
+    $replaytosendername=$message['reply_to_message']['from']['username'];
+    $newinchat=$message['new_chat_members'];
     /*
     Actions when bot recieves a message
     */
