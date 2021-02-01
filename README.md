@@ -20,4 +20,4 @@
 ## Methods
 >[Jump to Methods](/Methods)
 ###### Based on [Hellobot](https://core.telegram.org/bots/samples/hellobot)
-###### Licensed under [GNU GPL v.3](/license.md)
+###### Licensed under [GNU GPL v.3](/license)
