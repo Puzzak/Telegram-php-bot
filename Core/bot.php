@@ -15,31 +15,13 @@
     along with this program.  If not, see https://www.gnu.org/licenses/
 <?php
 define('token', '');//Insert your token here!
-define('link', 'https://api.telegram.org/bot'.token.'/');
-
-function exec_curl_request($handle) {
-    $response = curl_exec($handle);
-    $http_code = intval(curl_getinfo($handle, CURLINFO_HTTP_CODE));
-    curl_close($handle);
-    $response = json_decode($response, true);
-    $response = $response['result'];
-    return $response;
-}
 
 function Request($method, $parameters) {
-    if (!$parameters) {$parameters = array();}
-    foreach ($parameters as $key => &$val) {
-        if (!is_numeric($val) && !is_string($val)) {
-            $val = json_encode($val);
-        }
-    }
-    $url = link.$method.'?'.http_build_query($parameters);
-    $handle = curl_init($url);
-    curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($handle, CURLOPT_CONNECTTIMEOUT, 5);
-    curl_setopt($handle, CURLOPT_TIMEOUT, 60);
-    return exec_curl_request($handle);
+    foreach ($parameters as $key => &$val) {$val = json_encode($val);}
+    return json_decode(curl_exec(curl_init('https://api.telegram.org/bot'.token.'/'.$method.'?'.http_build_query($parameters))), true)['result'];
 }
+
+
 function Processing($message) {
     $message_id = $message['message_id'];//int
     $chat_id = $message['chat']['id'];//int or string
